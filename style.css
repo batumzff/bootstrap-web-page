@@ -1,0 +1,61 @@
+.banner{
+    background: url(./img/banner.jpeg) center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: purple;
+    height: 100vh;
+}
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-color:#dc3545 ;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.product{
+    object-fit: cover;
+}
+.team img{
+    width: 250px;
+    border: 10px solid #cccccc !important;
+
+}
+a.social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #333;
+    border-radius: 50%;
+    /* line-height: 40px; */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    /* border: 1px solid red; */
+    text-decoration: none;
+}
+.link{
+    height: auto;
+    /* max-height: 50px; */
+    vertical-align: middle;
+}
+.link img{
+    width: 120px;
+}
+
+.contact{
+    background: url("./img/map.jpeg");
+    color: #eee;
+    background-size: cover;
+
+}
+.contact input{
+    padding: 12px;
+    font-size: 20px;
+}
